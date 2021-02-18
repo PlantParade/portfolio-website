@@ -4,12 +4,17 @@
 <head>
     <meta charset="utf-8">
     <title>Amanda Morrison | Designer</title>
-    <link href="/img/favicon.ico" rel="shortcut icon">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Favicon for site --><link href="/img/favicon.ico" rel="shortcut icon">
+    <!-- Directs to normalize.css --> <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- Directs to stylesheet --><link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- Font embed (Opens Sans) --><link rel="preconnect" href="https://fonts.gstatic.com">
+        <!-- Font embed (Opens Sans) --><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+        <!-- Font embed (Poppins) --><link rel="preconnect" href="https://fonts.gstatic.com">
+        <!-- Font embed (Poppins) --><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&family=Poppins:wght@500;700;800&display=swap" rel="stylesheet">
+    <!-- Controls page scaling for responsive design --> <meta name="viewport" content="width=device-width, in itial-scale=1">
 </head>
 <body>
-    <header>
+    <header id="header">
         <div>
           <img src="/img/logo.png" alt="Amanda Morrison Logo" >
           <nav><!-- Main navigiation -->
@@ -22,7 +27,7 @@
         </div>
     </header>
     <main>
-        <div><!-- Hero section -->
+        <div id="hero"><!-- Hero section -->
           <div><!-- Yellow (container) -->
             <h1>I’m Amanda Morrison. I’m a designer from Woodbridge, VA,</h1>
             <span>focused on UI/UX design and 3D modeling.</span>
@@ -30,7 +35,7 @@
             <p>🌿 On the 3D side of things, I am a passionate environment modeler with a fondness for trinkets.</p>
           </div><!-- Close Yellow (container) -->
         </div><!-- Close Hero section -->
-        <div><!--Orange (section) -->
+        <div id="featured work"><!--Orange (section) -->
             <div><!--Yellow (container) -->
                 <h2>Featured Work</h2>
                     <div><!-- Green (row) -->
@@ -45,7 +50,7 @@
                           <p>
                             Parachute is an online shopping app for iOS (with accompanying desktop site)  It was designed with minimalism in mind, in order to create a convenient and intuitive interface.
                           </p>
-                          <a href="/parachute.html">Read more!</a>
+                          <a href="/parachute.html" class="button">Read more!</a>
                         </div><!-- Close Teal (column 2) -->
                     </div><!-- Close Green (row) -->
                     <div><!-- Green (row) -->
@@ -60,7 +65,7 @@
                           <p>
                             TrailBlazer is a native app with both an iOS and an Android version.  TrailBlazer is an on-the-go guide to trails and parks, helping users both plan and navigate outdoor experiences.
                           </p>
-                          <a href="/trailblazer.html">Read more!</a>
+                          <a href="/trailblazer.html" class="button" >Read more!</a>
                         </div><!-- Close Teal (column 2) -->
                     </div><!-- Close Green (row) -->
                     <div><!-- Green (row) -->
@@ -75,7 +80,7 @@
                           <p>
                             Recipe Vault is a responsive web app designed to help users find and filter through thousands of recipes.
                           </p>
-                          <a href="/recipe-vault.html">Read more!</a>
+                          <a href="/recipe-vault.html" class="button" >Read more!</a>
                         </div><!-- Close Teal (column 2) -->
                     </div><!-- Close Green (row) -->
             </div><!-- Close Yellow (container) -->
@@ -85,7 +90,7 @@
         <div><!-- Yellow (container) -->
             <h2>Contact Me</h2>
                 <div><!-- Mauve (row) -->
-                  <a href="mailto:amandamorrisonartist@gmail.com">Email</a>
+                  <a href="mailto:amandamorrisonartist@gmail.com" class="button email">Email</a>
                 </div><!-- Close Mauve (row) -->
                 <div><!-- Mauve (row 2) -->
                     <ul>
