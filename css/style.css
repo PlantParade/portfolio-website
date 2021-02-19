@@ -69,6 +69,16 @@ a:active {
     text-decoration: underline;
 }
 
+header {
+    background-color: #929292;
+    padding: 10px;
+    margin: 10px;
+}
+
+.social-icons {
+    width: 5%;
+}
+
 .button {
     display: inline-block;
     background-color: #3baa66;
