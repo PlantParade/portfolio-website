@@ -11,7 +11,7 @@
         <!-- Font embed (Open Sans & Poppins) --><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&family=Poppins:wght@500;700;800&display=swap" rel="stylesheet">
     <!-- Controls page scaling for responsive design --> <meta name="viewport" content="width=device-width, in itial-scale=1">
 </head>
-<body>
+<body id="about-page">
     <header>
         <div class="container">
           <img src="img/logo.png" class="logo" alt="Amanda Morrison Logo" >
@@ -32,12 +32,12 @@
         </div><!-- Close Orange (section) -->
         <div><!-- Orange (section 2) -->
             <div class="container"><!-- Yellow (container) -->
-                <picture class="headshot">
+                <picture>
                     <source src="img/headshot-featured.jpg"media="(max-width:767px)">
-                    <img src="img/headshot-featured@1x.jpg" alt="Amanda Morrison Portrait">
+                    <img class="headshot" src="img/headshot-featured@1x.jpg" alt="Amanda Morrison Portrait">
                 </picture>
                 <div class="row"><!-- Green (row) -->
-                    <div><!-- Teal (column 1) -->
+                    <div class="col-lg-7"><!-- Teal (column 1) -->
                         <h2>My Story</h2>
                         <p>Hey there! I’m Amanda Morrison and I’m a designer from Woodbridge, VA. I focus on UI/UX design and 3D modeling.</p>
                         <p>I’m a recent graduate of VCU with a BFA in Multimedia and a minor in Environmental Studies. I enjoy creating friendly and intuitive designs with the user at the forefront of each design decision. On the 3D side of things, I am a passionate environment modeler with a fondness for trinkets. I love plants!</p>
@@ -45,10 +45,10 @@
                             <a href="files/resume.pdf" class="button secondary" target="_blank">View my Resume</a>
                         </div>
                     </div><!-- Close Teal (column 1) -->
-                    <div><!-- Teal (column 2) -->
+                    <div class="col-lg-5"><!-- Teal (column 2) -->
                         <h2>Skills & Tools</h2>
                         <div class="row"><!-- Green (row) -->
-                            <div><!-- Teal (column 1) -->
+                            <div class="col-md-6"><!-- Teal (column 1) -->
                                 <h3>Relevant Skills</h3>
                                 <ul>
                                     <li>UI design</li>
@@ -61,7 +61,7 @@
                                     <li>JavaScript</li>
                                 </ul>
                             </div><!-- Close Teal (column 1) -->
-                            <div><!-- Teal (column 2) -->
+                            <div class="col-md-6"><!-- Teal (column 2) -->
                                 <h3>Tools I Use</h3>
                                 <ul>
                                     <li>Sketch</li>
