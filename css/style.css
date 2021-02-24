@@ -85,8 +85,9 @@ a:active {
     padding: 10px;
     border-radius: 20px;
     border: 2px solid #3baa66;
+    box-shadow: 0px 0px 0px #ffffff;
     transition-duration: 0.2s;
-    transition-property: background-color color;
+    transition-property: all;
 }
 
 .button:hover {
@@ -115,7 +116,7 @@ a:active {
     color: #3baa66;
     border: 2px solid #3baa66;
     transition-duration: 0.2s;
-    transition-property: background-color color;
+    transition-property: all;
 }
 
 .button.secondary:hover {
