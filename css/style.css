@@ -202,7 +202,6 @@ nav > ul > li > a:active {
 .navtoggle.responsive li {
     display: block;
     padding: 10px 0;
-    border-top: 1px solid #929292;
     text-align: center;
 }
 
@@ -348,7 +347,7 @@ Animation
 Medium (tablet) devices (640px and larger)
 ================================================== */
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 824px) {
     
     header {
         text-align: unset;
