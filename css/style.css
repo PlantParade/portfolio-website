@@ -31,23 +31,20 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
-    font-weight: 800;
+    font-size: 1.7em;
+    font-weight: 700;
 }
 
 h2 {
-    background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: 700;
 }
 
 h3 {
-    background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: 500;
 }
 
@@ -154,45 +151,67 @@ Layout styling
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 300px;
 }
 
 header {
-    background-color: #929292;
-    text-align: center;
-    padding: 10px 0;
+    background-color: #ffffff;
+    padding: 10px 0 4px;
     box-shadow: 0px 5px 15px #000000; 
     position: relative;
-}
-
-nav {
-    display: inline-block;
-    width: 100%;
 }
 
 nav > ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
     }
-
-nav > ul > li {
-    display: inline-block;
-}
 
 nav > ul > li > a {
     padding: 0 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #ffffff;
+    color: #000000;
 }
 
 nav > ul > li > a:hover,
 nav > ul > li > a:focus {
-    color: #000000;
+    color: #929292;
 }
 
 nav > ul > li > a:active {
     color: #3baa66;
+}
+
+.navtoggle li:not(:last-child) {
+    display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+    position: relative;
+}
+
+.navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    padding-right: 5px;
+    font-size: 25px;
+}
+
+.navtoggle.responsive li {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid #929292;
+    text-align: center;
+}
+
+.navtoggle reponsive li:last-child {
+    padding: 0 0 10px;
+}
+
+.navtoggle.responsive nav {
+    padding: 24px 0 0;
 }
 
 #contact {
@@ -215,24 +234,36 @@ Index Page Styling
 ================================================== */
 
 #hero {
-    background-color: #ffffff;
+    background-color: #929292;
     padding: 20px 0;
     display: inline-block;
     width: 100%;
     text-align: center;
 }
 
+#hero h1, 
+#hero h3 {
+    color: #ffffff;
+}
+
+
 #hero span {
     display: block;
 }
 
 #work h1,
-#work h2{
+#work h2,
+#work h3{
     text-align: center;
+    color: #000000;
 }
 
 #work img {
     padding-top: 10px;
+}
+
+#contact h3 {
+    color: #000000;
 }
 
 /* ==================================================
@@ -245,7 +276,7 @@ About Page Styling
 }
 
 .headshot {
-    width: 75%;
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -323,10 +354,34 @@ Medium (tablet) devices (640px and larger)
         text-align: unset;
     }
     
+    #work h2 {
+        margin-bottom: 0px;
+    }
+    
+    .logo {
+       min-width: 500px;
+    }
+    
     nav {
         width: auto;
         float: right;
-        padding-top: 25px;
+        padding-top: 35px;
+    }
+    
+    nav > ul {
+        margin: 1em 0;
+    }
+    
+    nav > ul > li {
+    display: inline-block;
+    }
+    
+    .navtoggle li:not(:last-child) {
+        display: inline-block;
+    }
+    
+    .navtoggle li:last-child {
+        display: none;
     }
     
     body {
@@ -354,7 +409,7 @@ Medium (tablet) devices (640px and larger)
     }
     
     .headshot {
-        width: 60%;
+        width: 30%;
 }
 
     #about-page .button.secondary {
@@ -385,10 +440,7 @@ Large (desktop) devices (1024px or larger)
         margin-left: auto;
         margin-right: auto;
     }
-    
-    .headshot {
-        width: 50%;
-}
+
     #about-page .col-md-6 {
         float: none;
         width: 100%;

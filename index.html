@@ -7,28 +7,32 @@
     <!-- Favicon for site --><link href="img/favicon.ico" rel="shortcut icon">
     <!-- Directs to normalize.css --> <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <!-- Directs to stylesheet --><link rel="stylesheet" type="text/css" href="css/style.css">
-        <!-- Font embed (Opens Sans & Poppins) --><link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Font embed (Opens Sans & Poppins) --><link rel="preconnect" href="https://fonts.gstatic.com">
         <!-- Font embed (Open Sans & Poppins) --><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&family=Poppins:wght@500;700;800&display=swap" rel="stylesheet">
+    <!-- Font embed for icons --><script src="https://kit.fontawesome.com/e8f73c1d53.js" crossorigin="anonymous"></script>
     <!-- Controls page scaling for responsive design --> <meta name="viewport" content="width=device-width, in itial-scale=1">
 </head>
 <body>
     <header>
         <div class="container">
-          <img src="img/logo.png" class="logo" alt="Amanda Morrison Logo" >
-          <nav><!-- Main navigiation -->
-              <ul class="navigation"><!-- Unordered list -->
-                <li class="link1"><a href="index.html">Work</a></li>
-                <li class="link2"><a href="about.html">About</a></li>
-                <li class="link3"><a href="#contact">Contact</a></li>
-              </ul>
-          </nav>
+            <div class="navtoggle" id="myNavtoggle">
+                <a href="index.html"><img src="img/logo.png" class="logo" alt="Amanda Morrison Logo"></a>
+                <nav><!-- Main navigiation -->
+                    <ul class="navigation"><!-- Unordered list -->
+                        <li class="link1"><a href="index.html">Work</a></li>
+                        <li class="link2"><a href="about.html">About</a></li>
+                        <li class="link3"><a href="#contact" onclick="menuToggle()">Contact </a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <main>
         <div id="hero"><!-- Hero section -->
           <div class="container"><!-- Yellow (container) -->
-            <h1>I’m Amanda Morrison. </h1>
-              <h2>I’m a designer from Woodbridge, VA <span>focused on UI/UX design and 3D modeling.</span></h2>
+            <h1>Hey there!  I’m Amanda Morrison </h1>
+              <h3>I’m a designer from Woodbridge, VA <span>focused on UI/UX design and 3D modeling.</span></h3>
           </div><!-- Close Yellow (container) -->
         </div><!-- Close Hero section -->
         <div id="work"><!--Orange (section) -->
