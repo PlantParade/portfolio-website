@@ -12,450 +12,457 @@ Heading #3: Poppins/Medium/18 pts/Weight 500
 Body (paragraph): Open Sans/Regular/16 pts/Weight 400
 Subtitle: Open Sans/Light Italic/12 pts/Weight 300
 ================================================== */
-
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.6;
-    color: #000000
+  background-color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #000000;
 }
 
-h1, h2, h3, h4 {
-    line-height: 1.4;
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.4;
 }
 
 h1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.7em;
-    font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.7em;
+  font-weight: 700;
 }
 
 h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
-    font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
 }
 
 h3 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.3em;
-    font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3em;
+  font-weight: 500;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 /* ==================================================
 Links & Buttons
 ================================================== */
-
 a {
-    color: #3baa66;
-    text-decoration: none;
-    transition-duration: 0.2s;
-    transition-property: color;
+  color: #3baa66;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  transition-property: color;
 }
 
 a:hover,
 a:focus {
-    color: #929292;
-    text-decoration: none;
+  color: #929292;
+  text-decoration: none;
 }
 
 a:active {
-    color: #000000
-    text-decoration: underline;
+  color: #000000;
+  text-decoration: underline;
 }
 
 .button {
-    display: inline-block;
-    color: #ffffff;
-    background-color: #3baa66;
-    font-weight: 500;
-    padding: 10px;
-    border-radius: 20px;
-    border: 2px solid #3baa66;
-    box-shadow: 0px 0px 0px #ffffff;
-    transition-duration: 0.2s;
-    transition-property: all;
+  display: inline-block;
+  color: #ffffff;
+  background-color: #3baa66;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #3baa66;
+  box-shadow: 0 0 0 #ffffff;
+  transition-duration: 0.2s;
+  transition-property: all;
 }
 
 .button:hover {
-    background-color: #ffffff;
-    color: #929292;
-    border: 2px solid #ffffff;
-    box-shadow: 0px 0px 25px #929292;
-    }
+  background-color: #ffffff;
+  color: #929292;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 25px #929292;
+}
 
 .button:focus {
-    background-color: #ffffff;
-    color: #929292;
-    border: 2px solid #929292;
-    box-shadow: 0px 0px 25px #929292;
-    }
+  background-color: #ffffff;
+  color: #929292;
+  border: 2px solid #929292;
+  box-shadow: 0 0 25px #929292;
+}
 
 .button:active {
-    background-color: #ffffff;
-    color: #000000;
-    border: 2px solid #000000;
-    box-shadow: 0px 0px 25px #000000;
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+  box-shadow: 0 0 25px #000000;
 }
 
 .button.secondary {
-    background-color: #ffffff;
-    color: #3baa66;
-    border: 2px solid #3baa66;
-    transition-duration: 0.2s;
-    transition-property: all;
+  background-color: #ffffff;
+  color: #3baa66;
+  border: 2px solid #3baa66;
+  transition-duration: 0.2s;
+  transition-property: all;
 }
 
 .button.secondary:hover {
-    background-color: #ffffff;
-    color: #929292;
-    border: 2px solid #929292;
-    box-shadow: 0px 0px 25px #929292;
+  background-color: #ffffff;
+  color: #929292;
+  border: 2px solid #929292;
+  box-shadow: 0 0 25px #929292;
 }
 
 .button.secondary:focus {
-    background-color: #ffffff;
-    color: #929292;
-    border: 2px solid #ffffff;
-    box-shadow: 0px 0px 25px #929292;
+  background-color: #ffffff;
+  color: #929292;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 25px #929292;
 }
 
 .button.secondary:active {
-    background-color: #ffffff;
-    color: #000000;
-    border: 2px solid #000000;
-    box-shadow: 0px 0px 25px #000000;
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+  box-shadow: 0 0 25px #000000;
 }
 
 /* ==================================================
 Layout styling
 ================================================== */
-
 .container {
-    padding: 0 15px;
+  padding: 0 15px;
 }
 
 .row {
-    padding-bottom: 25px;
-    border-bottom: 1px solid #000000;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #000000;
 }
 
 .logo {
-    max-width: 300px;
+  max-width: 300px;
 }
 
 header {
-    background-color: #ffffff;
-    padding: 10px 0 4px;
-    box-shadow: 0px 5px 15px #000000; 
-    position: relative;
+  background-color: #ffffff;
+  padding: 10px 0 4px;
+  box-shadow: 0 5px 15px #000000;
+  position: relative;
 }
 
 nav > ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    }
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 
 nav > ul > li > a {
-    padding: 0 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #000000;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000000;
 }
 
 nav > ul > li > a:hover,
 nav > ul > li > a:focus {
-    color: #929292;
+  color: #929292;
 }
 
 nav > ul > li > a:active {
-    color: #3baa66;
+  color: #3baa66;
 }
 
 .navtoggle li:not(:last-child) {
-    display: none;
+  display: none;
 }
 
-.navtoggle, .navtoggle.responsive {
-    position: relative;
+.navtoggle,
+.navtoggle.responsive {
+  position: relative;
 }
 
 .navtoggle li .icon {
-    position: absolute;
-    right: 0;
-    top: 20px;
-    padding-right: 5px;
-    font-size: 25px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  padding-right: 5px;
+  font-size: 25px;
 }
 
 .navtoggle.responsive li {
-    display: block;
-    padding: 10px 0;
-    text-align: center;
+  display: block;
+  padding: 10px 0;
+  text-align: center;
 }
 
-.navtoggle reponsive li:last-child {
-    padding: 0 0 10px;
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
 }
 
 .navtoggle.responsive nav {
-    padding: 24px 0 0;
+  padding: 24px 0 0;
 }
 
 #contact {
-    text-align: center;
+  text-align: center;
 }
 
 #contact > div > div > ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 #contact > div > div > ul > li {
-    display: inline-block;
-    max-width: 70px;
-    padding: 0 15px;
+  display: inline-block;
+  max-width: 70px;
+  padding: 0 15px;
 }
 
 /* ==================================================
 Index Page Styling
 ================================================== */
-
 #hero {
-    background-color: #929292;
-    padding: 20px 0;
-    display: inline-block;
-    width: 100%;
-    text-align: center;
+  background-color: #929292;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 
-#hero h1, 
+#hero h1,
 #hero h3 {
-    color: #ffffff;
+  color: #ffffff;
 }
-
 
 #hero span {
-    display: block;
+  display: block;
 }
 
 #work h1,
 #work h2,
-#work h3{
-    text-align: center;
-    color: #000000;
+#work h3 {
+  text-align: center;
+  color: #000000;
 }
 
 #work img {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 #contact h3 {
-    color: #000000;
+  color: #000000;
 }
 
 /* ==================================================
 About Page Styling
 ================================================== */
-
 .about h1,
 .about h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .headshot {
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 /* ==================================================
 Project Page Styling
 ================================================== */
-
 .project {
-    text-align: center;
+  text-align: center;
 }
 
 h1 {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 /* ==================================================
 Animation
 ================================================== */
-
 @keyframes color-change {
-    from {fill: #f5fce0;}
-    to {fill: #095945;}
+  from {
+    fill: #f5fce0;
+  }
+
+  to {
+    fill: #095945;
+  }
 }
 
 @keyframes back-plants-move {
-    from {transform: translate(0,50px);}
-    to {transform: translate(20px,50px)}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(20px, 50px);
+  }
 }
 
 @keyframes mid-plants-move {
-    from {transform: translate(0px, 50px);}
-    to {transform: translate(50px, 50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(50px, 50px);
+  }
 }
 
 @keyframes rotate {
-    0% {transform: rotate(0deg);}
-    50% {transform: rotate(5deg);}
-    100% {transform: rotate(-5deg);}
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(-5deg);
+  }
 }
 
-.st0 /* Background */ {
-    animation: 10s color-change infinite alternate linear;
+.st0 {
+  animation: 10s color-change infinite alternate linear;
 }
 
-.st1 /* Back plants */ {
-    animation: 5s back-plants-move infinite alternate linear;
+.st1 {
+  animation: 5s back-plants-move infinite alternate linear;
 }
 
-.st2 /* Front plants */ {
-    animation: 5s rotate infinite alternate linear;
-    transform-origin: center;
+.st2 {
+  animation: 5s rotate infinite alternate linear;
+  transform-origin: center;
 }
 
-.st10 /* Mid plants */ {
-    animation: 5s mid-plants-move infinite alternate linear;
+.st10 {
+  animation: 5s mid-plants-move infinite alternate linear;
 }
 
-.st11 /* Mid plants */ {
-    animation: 3s mid-plants-move infinite alternate linear;
+.st11 {
+  animation: 3s mid-plants-move infinite alternate linear;
 }
 
 /* ==================================================
 Medium (tablet) devices (824px and larger)
 ================================================== */
-
 @media only screen and (min-width: 824px) {
-    
-    header {
-        text-align: unset;
-    }
-    
-    #work h2 {
-        margin-bottom: 0px;
-    }
-    
-    .logo {
-       min-width: 500px;
-    }
-    
-    nav {
-        width: auto;
-        float: right;
-        padding-top: 35px;
-    }
-    
-    nav > ul {
-        margin: 1em 0;
-    }
-    
-    nav > ul > li {
-    display: inline-block;
-    }
-    
-    .navtoggle li:not(:last-child) {
-        display: inline-block;
-    }
-    
-    .navtoggle li:last-child {
-        display: none;
-    }
-    
-    body {
-        font-size: 18px;
-    }
-    
-    .col-md-6 {
-        width: 50%;
-        padding: 0 10px;
-        float: left;
-    }
- 
-    .row::after {
-        content: "";
-        clear: both;
-        display: table;
-    }
-    
-    #work .row {
-        padding-top: 25px;
-    }
+  header {
+    text-align: unset;
+  }
 
-    #about-page h3 {
-        margin-top: 0;
-    }
-    
-    .headshot {
-        width: 30%;
+  #work h2 {
+    margin-bottom: 0;
+  }
+
+  .logo {
+    min-width: 500px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    padding-top: 35px;
+  }
+
+  nav > ul {
+    margin: 1em 0;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  .col-md-6 {
+    width: 50%;
+    padding: 0 10px;
+    float: left;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #work .row {
+    padding-top: 25px;
+  }
+
+  #about-page h3 {
+    margin-top: 0;
+  }
+
+  .headshot {
+    width: 30%;
+  }
+
+  #about-page .button.secondary {
+    margin-bottom: 20px;
+  }
 }
 
-    #about-page .button.secondary {
-        margin-bottom: 20px;
-    }
-    
 /* ==================================================
 Large (desktop) devices (1024px or larger)
 ================================================== */
-
 @media only screen and (min-width: 1024px) {
-    
-    .col-lg-7 {
-        width: 58.33%;
-    }
-    
-    .col-lg-5 {
-        width: 41.66%;
-    }
-    
-    [class*="col-lg-"] {
+  .col-lg-7 {
+    width: 58.33%;
+  }
+
+  .col-lg-5 {
+    width: 41.66%;
+  }
+
+  [class*="col-lg-"] {
     float: left;
     padding: 20px;
   }
- 
-    .container {
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
-    #about-page .col-md-6 {
-        float: none;
-        width: 100%;
-    }
-    
-    #about-page .about div .container .row .col-lg-5 .row {
-        padding-bottom: 25px;
-        border-bottom: 0px solid #000000;
-    }
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-}
+  #about-page .col-md-6 {
+    float: none;
+    width: 100%;
+  }
 
-/* ==================================================
-XL Devices (1440px and larger)
-================================================== */
-
-@media only screen and (min-width: 1440px) {
-    
+  #about-page .about div .container .row .col-lg-5 .row {
+    padding-bottom: 25px;
+    border-bottom: 0 solid #000000;
+  }
 }
