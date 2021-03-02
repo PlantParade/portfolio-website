@@ -17,12 +17,12 @@ Subtitle: Open Sans/Light Italic/12 pts/Weight 300
 }
 
 body {
-  background-color: #fff;
+  background-color: #ffffff;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
-  color: #000;
+  color: #000000;
 }
 
 h1,
@@ -71,46 +71,46 @@ a:focus {
 }
 
 a:active {
-  color: #000;
+  color: #000000;
   text-decoration: underline;
 }
 
 .button {
   display: inline-block;
-  color: #000;
+  color: #000000;
   background-color: #3baa66;
   font-weight: 500;
   padding: 10px;
   border-radius: 20px;
   border: 2px solid #3baa66;
-  box-shadow: 0 0 0 #fff;
+  box-shadow: 0 0 0 #ffffff;
   transition-duration: 0.2s;
   transition-property: all;
 }
 
 .button:hover {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #767676;
-  border: 2px solid #fff;
+  border: 2px solid #ffffff;
   box-shadow: 0 0 25px #767676;
 }
 
 .button:focus {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #767676;
   border: 2px solid #767676;
   box-shadow: 0 0 25px #767676;
 }
 
 .button:active {
-  background-color: #fff;
-  color: #000;
-  border: 2px solid #000;
-  box-shadow: 0 0 25px #000;
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+  box-shadow: 0 0 25px #000000;
 }
 
 .button.secondary {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #767676;
   border: 2px solid #767676;
   transition-duration: 0.2s;
@@ -119,23 +119,23 @@ a:active {
 
 .button.secondary:hover {
   background-color: #3baa66;
-  color: #000;
-  border: 2px solid #000;
-  box-shadow: 0 0 25px #000;
+  color: #000000;
+  border: 2px solid #000000;
+  box-shadow: 0 0 25px #000000;
 }
 
 .button.secondary:focus {
   background-color: #3baa66;
-  color: #000;
-  border: 2px solid #000;
-  box-shadow: 0 0 25px #000;
+  color: #000000;
+  border: 2px solid #000000;
+  box-shadow: 0 0 25px #000000;
 }
 
 .button.secondary:active {
   background-color: #3baa66;
-  color: #000;
-  border: 2px solid #000;
-  box-shadow: 0 0 25px #000;
+  color: #000000;
+  border: 2px solid #000000;
+  box-shadow: 0 0 25px #000000;
 }
 
 /* ==================================================
@@ -147,7 +147,7 @@ Layout styling
 
 .row {
   padding-bottom: 25px;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #000000;
 }
 
 .logo {
@@ -155,9 +155,9 @@ Layout styling
 }
 
 header {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 10px 0 4px;
-  box-shadow: 0 5px 15px #000;
+  box-shadow: 0 5px 15px #000000;
   position: relative;
 }
 
@@ -171,7 +171,7 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #000;
+  color: #000000;
 }
 
 nav > ul > li > a:hover,
@@ -242,7 +242,7 @@ Index Page Styling
 
 #hero h1,
 #hero h3 {
-  color: #fff;
+  color: #ffffff;
 }
 
 #hero span {
@@ -253,7 +253,7 @@ Index Page Styling
 #work h2,
 #work h3 {
   text-align: center;
-  color: #000;
+  color: #000000;
 }
 
 #work img {
@@ -261,7 +261,7 @@ Index Page Styling
 }
 
 #contact h3 {
-  color: #000;
+  color: #000000;
 }
 
 /* ==================================================
@@ -463,6 +463,6 @@ Large (desktop) devices (1024px or larger)
 
   #about-page .about div .container .row .col-lg-5 .row {
     padding-bottom: 25px;
-    border-bottom: 0 solid #000;
+    border-bottom: 0 solid #000000;
   }
 }
